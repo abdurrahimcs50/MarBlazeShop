@@ -163,9 +163,17 @@ STATICFILES_DIRS = [
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
-
+# PayPal Settings
+PAYPAL_CLIENT_ID=os.environ.get('PAYPAL_CLIENT_ID')
+print(PAYPAL_CLIENT_ID)
+PAYPAL_SECRET_KEY_1=os.environ.get('PAYPAL_SECRET_KEY_1')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Console email backend
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

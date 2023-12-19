@@ -8,10 +8,12 @@ import json
 from store.models import Product
 from django.core.mail import EmailMessage
 from django.template.loader import render_to_string
+from django.conf import settings
 
 
 def payments(request):
     body = json.loads(request.body)
+    print(body, 'coming form js')
     order = Order.objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
 
     # Store transaction details inside Payment model
@@ -122,12 +124,14 @@ def place_order(request, total=0, quantity=0,):
             data.save()
 
             order = Order.objects.get(user=current_user, is_ordered=False, order_number=order_number)
+            print(settings.PAYPAL_CLIENT_ID)
             context = {
                 'order': order,
                 'cart_items': cart_items,
                 'total': total,
                 'tax': tax,
                 'grand_total': grand_total,
+                'paypal_client_id': settings.PAYPAL_CLIENT_ID,
             }
             return render(request, 'orders/payments.html', context)
     else:
