@@ -96,12 +96,7 @@ Now, you should be able to access the application at `localhost:8000` (or whatev
 
     ##Execute Management Commands
 
-    
-
-<a name="usage"></a>
-## Usage
-
-```bash
+   ```bash
 
     # Use the following commands to manage your Django application within the Docker container:
 
@@ -125,8 +120,29 @@ Now, you should be able to access the application at `localhost:8000` (or whatev
 
 <a name="demo"></a>
 ## Demo
-(Embed or link to your demo video here.)
+A demo of this application can be found at this link. (Replace `#` with the actual link to your demo.)
 
 <a name="screenshots"></a>
 ## Screenshots
-(Include screenshots of your application here.)
+Here are some screenshots of the application:
+
+- Home Page:
+    !Home Page (Replace `#` with the actual link to your screenshot.)
+- Product Page:
+    !Product Page (Replace `#` with the actual link to your screenshot.)
+
+<a name="contributing"></a>
+## Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Submit a pull request.
+
+Before contributing, please read the CONTRIBUTING.md file. (Replace `#` with the actual link to your CONTRIBUTING.md file.)
+
+<a name="license"></a>
+## License
+This project is licensed under the MIT License. For more information, please read the LICENSE.md file. (Replace `#` with the actual link to your LICENSE.md file.)
+
