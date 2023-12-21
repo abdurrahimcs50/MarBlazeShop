@@ -22,7 +22,11 @@ services:
     env_file:
       # Use environment variables from a .env file.
       # This is where you should put any secrets, like your SECRET_KEY.
-      - ./src/.env
+      - ./src/prod.env
+    
+    depends_on:
+      # This ensures the database service is started before the web service.
+      - db
       
   # The db service is your database.
   db:
@@ -41,7 +45,20 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
     # A friendly name for the container.
-    container_name: MarBlazeShop_dev_postgres_db
+    container_name: MarBlazeShop_prod_postgres_db
+
+  nginx:
+    build:
+      context: ./nginx/
+    ports:
+      - 80:80
+    volumes:
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - static_files:/home/app/static/
+      - media_files:/home/app/media/
+    
+    depends_on:
+      - web
 
 # These are the volumes used above.
 # In a development environment, these will be created as anonymous volumes.
