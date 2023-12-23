@@ -124,10 +124,53 @@ A demo of this application can be found at this link. [Check Live Demo](#)
 
 <a name="screenshots"></a>
 ## Screenshots
+
 Here are some screenshots of the application:
 
-- Home Page:
-- Product Page:
+- HomePage:
+
+![HomePage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/3f57769d-2364-4090-8792-36f7a7d40f21)
+
+- StorePage:
+
+![StorePage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/8f667230-c0d7-4368-b73c-0e33c71f9d74)
+
+- ProductDetailPage:
+
+![ProductDetailPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/128c5e92-0d8d-42f4-b704-16144e5bb9ad)
+
+- SignInPage:
+  
+![SignInPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/d994f831-4ad0-428b-bd10-e86112ea1de0)
+
+- SignUpPage:
+  
+![SignUpPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/abc57ad4-0d6d-4756-931a-ed325cfaf03e)
+
+- ForGotPassWordPage:
+  
+![ForGotPassWordPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/3081c670-2ca9-4a08-9292-0b88eebe5017)
+
+- DashBoardPage:
+  
+![DashBoardPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/6122868f-3130-4293-beda-8b66a65e853b)
+
+- CartPage:
+  
+![CartPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/0503312c-c8c9-4caa-97d3-533f8d843918)
+
+- CheckOutPage:
+  
+![CheckOutPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/96bdbfe7-09dd-4722-a06a-4c437f7e1e1d)
+
+- PaymentPage:
+
+![PaymentPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/e7daff18-efe5-4b0e-8224-4ca467aadc08)
+
+- PayMentSuccessFullPage:
+
+  
+![PayMentSuccessFullPage](https://github.com/abdurrahimcs50/MarBlazeShop/assets/64221250/bcd20f6d-c8f2-4d6b-97e3-59eaba34c594)
 
 <a name="contributing"></a>
 
